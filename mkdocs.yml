@@ -1,0 +1,30 @@
+site_name: LinxEA-WIKI
+
+nav:
+  - Home: index.md
+
+
+  - GoLang:
+      - 1: GoLang/1.md
+      - 2: GoLang/2.md
+      - 3: GoLang/3.md      
+      
+  - Docker:
+      - 容器基础: Docker/1.容器基础.md
+      - 容器基础用法: Docker/2.容器基础用法.md
+      - 镜像基础: Docker/3.镜像管理基础.md 
+      - docker网络概述: Docker/4.docker网络概述.md    
+      - docker容器网络: Docker/5.docker容器网络.md    
+      - 镜像基础: Docker/3.镜像管理基础.md          
+  - Kubernetes:
+      - run: kubernetes/1.md    
+  - Gitlab:
+      - run: GitLab/1.md       
+  - Jenkins:
+      - run: Jenkins/1.md         
+theme:
+  #name: 'rtd-dropdown'
+  name: mkdocs
+  
+
+copyright: Copyright &copy; 2019 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
