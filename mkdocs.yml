@@ -66,73 +66,73 @@ nav:
       - env传参数: Docker/49.env
       - shell env: Docker/50.shell env    
   - Kubernetes:
-    - 1.kubernetes安装: kubernetes/1.kubernetesInstall    
-    - 2.run第一个pod: kubernetes/2.run pod 
-    - 3.资源清单: kubernetes/3.资源清单
-    - 4.pod控制器1: kubernetes/4.pod控制器1
-    - 5.pod控制器2: kubernetes/5.pod控制器2
-    - 6.service资源: kubernetes/6.service资源 
-    - 7.Ingress Controller: kubernetes/7.Ingress Controller
-    - 8.存储卷: kubernetes/8.存储卷      
+    - 1.kubernetes安装: kubernetes/1.kubernetesInstaLL  
+    - 2.run第一个pod: kubernetes/2.runPod
+    - 3.资源清单: kubernetes/3.Resourcelist
+    - 4.pod控制器1: kubernetes/4.podController1
+    - 5.pod控制器2: kubernetes/5.podController2
+    - 6.service资源: kubernetes/6.service
+    - 7.Ingress Controller: kubernetes/7.Ingress-Controller
+    - 8.存储卷: kubernetes/8.Storagevolume  
     - 9.pv-pvc-configmap与secret: kubernetes/9.pv-pvc-configmap and secret    
-    - 10.statefulset控制器: kubernetes/10.statefulset控制器  
-    - 11.用户认证: kubernetes/11.用户认证
+    - 10.statefulset控制器: kubernetes/10.statefulsetController
+    - 11.用户认证: kubernetes/11.UserAuthentication
     - 12.RBAC: kubernetes/12.RBAC    
     - 13.dashboard: kubernetes/13.dashboard
-    - 14.网络插件flannel: kubernetes/14.网络插件flannel
+    - 14.网络插件flannel: kubernetes/14.flannel
     - 15.calico: kubernetes/15.calico
-    - 16.调度器-预选策略-优选函数: kubernetes/16.调度器-预选策略-优选函数    
-    - 17.高级调度方式: kubernetes/17.高级调度方式 
-    - 18.容器资源需求-限制及heapster: kubernetes/18.容器资源需求-限制及heapster    
-    - 19.资源指标API以及自定义指标API: kubernetes/19.资源指标API以及自定义指标API    
-    - 20.api server配置文件: kubernetes/20.api server配置文件  
-    - 21.helm入门: kubernetes/21.helm入门  
+    - 16.调度器-预选策略-优选函数: kubernetes/16.Scheduler-PreselectionStrategy-PreferredFunction   
+    - 17.高级调度方式: kubernetes/17.Advancedschedulingmethod
+    - 18.容器资源需求-限制及heapster: kubernetes/18.ContainerResourceRequirementsHeapster 
+    - 19.资源指标API以及自定义指标API: kubernetes/19.ResourceAPI-and-custom-API
+    - 20.api server配置文件: kubernetes/20.api serverConfigureFile
+    - 21.helm入门: kubernetes/21.helm
     - 22.chart: kubernetes/22.chart
   - Devops:
     - Devops方法:
-      - 1.devops起源名字中有什么: Devops/1.devops起源名字中有什么
-      - 2.面向大众的devops: Devops/2.面向大众的devops
-      - 3.持续集成首要7个标志: Devops/3.持续集成首要7个标志
-      - 4.自动化测试和持续测试的差异: Devops/4.自动化测试和持续测试的差异
-      - 5.连续测试的的5个步骤: Devops/5.连续测试的的5个步骤        
+      - 1.devops起源名字中有什么: Devops/1.devopsNameOrigin-And-meaning
+      - 2.面向大众的devops: Devops/2.Devops-for-the-public
+      - 3.持续集成首要7个标志: Devops/3.Continuous-integration-of-top7-signs
+      - 4.自动化测试和持续测试的差异: Devops/4.Differences-between-automated-testing-and-continuous-testing
+      - 5.连续测试的的5个步骤: Devops/5.5steps-of-continuous-testing
     - Devops工具:  
       - Gitlab-CI/CD:
-        - 0.Gitlab-ce安装: GitLab-CICD/0.Gitlab-ce install  
-        - 1.Gitlab-Runner安装: GitLab-CICD/1.Gitlab-Runner安装
-        - 2.Gitlab-ci.yaml文件基础配置: GitLab-CICD/2.gitlab-ci.yaml文件基础配置   
-        - 3.Gitlab-Runner持续集成和自动更新: GitLab-CICD/3.gitlab+runner持续集成和自动更新
+        - 0.Gitlab-ce安装: GitLab-CICD/0.Gitlab-ce-install  
+        - 1.Gitlab-Runner安装: GitLab-CICD/1.Gitlab-RunnerIinstall
+        - 2.Gitlab-ci.yaml文件基础配置: GitLab-CICD/2.gitlab-ci.yamlFileConfigure   
+        - 3.Gitlab-Runner持续集成和自动更新: GitLab-CICD/3.gitlab+runnerCI-autoUpdate
         - 4.Gitlab-ci-soner: GitLab-CICD/4.gitlab-ci+soner   
         - 5.Gitlab-ci SAST静态应用安全测试: GitLab-CICD/5.SAST
         - 6.Gitlab-ci Dependency依赖关系扫描: GitLab-CICD/6.Dependency
         - 7.Gitlab-ci license_management依赖关系许可: GitLab-CICD/7.license_management
         - 8.Gitlab-ci sitespeed.io Web性能: GitLab-CICD/8.sitespeed.io    
         - 9.Gitlab-ci DAST ZAP安全分析: GitLab-CICD/9.DAST
-        - 10.配置邮件通知: GitLab-CICD/10.configure email  
-        - 11.YAML与拓扑: GitLab-CICD/11.YAML与拓扑 
+        - 10.配置邮件通知: GitLab-CICD/10.configure-email  
+        - 11.YAML与拓扑: GitLab-CICD/11.YAML-And-tuop
         - 12.Gitlab完成一次Docker构建: GitLab-CICD/12.gitlab+docker  
-        - 13.Gitlab-ci Docker镜像层质量检测: GitLab-CICD/13.gitlab-ci-docker镜像检查
+        - 13.Gitlab-ci Docker镜像层质量检测: GitLab-CICD/13.gitlab-ci-dockerImageCheck
         - 14.Gitlab-ci Docker镜像层安全检测: GitLab-CICD/14.gitlab-ci-docker-bench-security
         - 15.Gitlab-ci Docker镜像层质量分析: GitLab-CICD/15.gitlab-ci-dive
-        - 16.gitlab https配置: GitLab-CICD/16.gitlab https配置
-        - 17.gitlab的Prometheus监控: GitLab-CICD/17.gitlab的Prometheus监控
-        - 18.基于gitlab-ci的定时任务: GitLab-CICD/18.基于gitlab-ci的定时任务        
+        - 16.gitlab https配置: GitLab-CICD/16.gitlab-https
+        - 17.gitlab的Prometheus监控: GitLab-CICD/17.gitlabPrometheusMon
+        - 18.基于gitlab-ci的定时任务: GitLab-CICD/18.gitlab-ciCrontabJob       
       - Jenkins:
         - Jenkins:
           - 1.jenkins忘记密码: Jenkins/1.jenkins
-          - 2.基于用户角色的权限控制: Jenkins/2.jenkins version 2.138.2
-          - 3.jenkins设置环境变量的几种方式: Jenkins/3.jenkins设置环境变量的几种方式
-          - 4.单机运行多个jenkins-docker: Jenkins/4.单机运行多个jenkins-docker
-          - 5.git+jenkins发布和回滚示例: Jenkins/5.git+jenkins发布和回滚示例
-          - 6.jenkins+gitlab+docker快速部署发布回滚示例: Jenkins/6.jenkins+gitlab+docker快速部署发布回滚示例
+          - 2.基于用户角色的权限控制: Jenkins/2.jenkins-User-based-AccessControl
+          - 3.jenkins设置环境变量的几种方式: Jenkins/3.jenkinsEnv
+          - 4.单机运行多个jenkins-docker: Jenkins/4.Running-multiple-jenkins
+          - 5.git+jenkins发布和回滚示例: Jenkins/5.git+jenkinsdeploy-and-rollback-examples
+          - 6.jenkins+gitlab+docker快速部署发布回滚示例: Jenkins/6.jenkins+gitlab+docker-deploy-and-rollback-examples
         - Pipeline:
-          - A.jenkins+pipeline+gitlab+ansible安装配置(1): Jenkins/A.jenkins+pipeline+gitlab+ansible快速安装配置(1)
-          - B.jenkins pipeline简单使用示例(2): Jenkins/B.jenkins pipeline简单使用示例(2)
-          - C.jenkins pipeline参数化构建发布和回滚(3): Jenkins/C.jenkins pipeline参数化构建发布和回滚(3)
-          - D.jenkins集成SonarQube Scanner(4): Jenkins/D.jenkins集成SonarQube Scanner(4)
-          - E.jenkins pipeline邮件提醒的两种方式(5): Jenkins/E.jenkins pipeline邮件提醒的两种方式(5)
-          - F.jenkins pipeline阶段终止: Jenkins/F.jenkins pipeline阶段终止
+          - A.jenkins+pipeline+gitlab+ansible安装配置(1): Jenkins/A.jenkins+pipeline+gitlab+ansibleIinstallConfigure(1)
+          - B.jenkins pipeline简单使用示例(2): Jenkins/B.jenkins pipelineUseExample(2)
+          - C.jenkins pipeline参数化构建发布和回滚(3): Jenkins/C.jenkins pipeline-Parametric-build-deploy-rollback(3)
+          - D.jenkins集成SonarQube Scanner(4): Jenkins/D.jenkins-SonarQube Scanner(4)
+          - E.jenkins pipeline邮件提醒的两种方式(5): Jenkins/E.jenkins-pipelineEmail(5)
+          - F.jenkins pipeline阶段终止: Jenkins/F.jenkins-pipelineStae-Stop
   - Git操作手册:
-    - Git稀疏检出: Git/Git检出目录      
+    - Git稀疏检出: Git/GitCheckOut  
 theme:
   #name: 'rtd-dropdown'
   name: mkdocs
