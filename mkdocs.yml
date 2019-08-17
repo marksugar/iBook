@@ -12,54 +12,56 @@ nav:
     - 2: GoLang/2.md
     - 3: GoLang/3.md          
   - 白话容器入门精选:
-    - 1.容器基础: Docker/1.容器基础
-    - 2.容器基础用法: Docker/2.容器基础用法
-    - 3.镜像基础: Docker/3.镜像管理基础
-    - 4.docker网络概述: Docker/4.docker网络概述    
-    - 5.docker容器网络: Docker/5.docker容器网络 
-    - 6.docker存储卷: Docker/6.docker存储卷     
-    - 7.dockerfile基础1: Docker/7.dockerfile基础1   
-    - 8.dockerfile基础2: Docker/8.dockerfile基础2
-    - 9.资源限制: Docker/9.资源限制
+    - 1.容器基础: Docker/1.Docker-Basis
+    - 2.容器基础用法: Docker/2.Docker-Basis-Usege
+    - 3.镜像基础: Docker/3.image-Basis-Usege
+    - 4.docker网络概述: Docker/4.docker-Network-Summarize   
+    - 5.docker容器网络: Docker/5.docker-Network 
+    - 6.docker存储卷: Docker/6.docker-Storage-Volume     
+    - 7.dockerfile基础1: Docker/7.dockerfile-Basis1   
+    - 8.dockerfile基础2: Docker/8.dockerfile-Basis2
+    - 9.资源限制: Docker/9.Docker-ResourceLimit
     - 10.Registry仓库: Docker/10.Registry
   - 容器快速入门和技巧:
     - 快速入门:  
-      - docker中运行bash或任何命令: Docker/17.在docker中运行bash或任何命令
-      - 后台运行容器: Docker/16.如何在终端的后台运行容器
-      - docker run的十大选项1: Docker/15.docker run的十大选项 
-      - docker run的十大选项2: Docker/21.十大Docker CLI命令    
-      - docker的镜像标签: Docker/26.docker的镜像标签      
-      - 简单解释docker的端口命令: Docker/18.简单解释docker的端口命令
+      - docker中运行bash或任何命令: Docker/17.in-Docker-Run-bashAndCommand
+      - 后台运行容器: Docker/16.Daemon-Run-Docker
+      - docker run的十大选项1: Docker/15.dockerrun-TOP10
+      - docker run的十大选项2: Docker/21.top10-Docker-CLI-Command   
+      - 从命令行删除Docker容器: Docker/19.DockerDeletecontainer
+      - 从命令行过滤镜像和卷: Docker/20.DockerCommandFiltering-iMG-Volumes      
+      - docker的镜像标签: Docker/26.dockerTag      
+      - 简单解释docker的端口命令: Docker/18.Docker-Port-Command
       - Dockerfile中cmd与entrypoin区别: Docker/11.cmd-entrypoint
-      - docker run与exec区别: Docker/12.docker run exec
+      - docker run与exec区别: Docker/12.docker-run-exec
       - Dockerfile基础3与ONBUILD: Docker/13.ONBUILD
       - Dockerfile与health-check健康状态检测: Docker/14.docker-health-check
-      - Dockerfile COPY与ADD的最佳实践: Docker/45.COPY与ADD的最佳实践      
-      - 清理docker镜像: Docker/22.使用单个命令清理Docker镜像，容器和卷   
-      - docker和docker-compose的Entrypoint: Docker/23.如何使用docker和docker-compose的Entrypoint
-      - 查看docker日志: Docker/24.有效使用docker查看日志
-      - 设置docker日志轮训切换: Docker/27.如何设置docker日志轮训切换      
-      - docker-compose入门: Docker/25.如何运行多容器的应用程序之docker-compose
-      - docker-compose设置静态ip和link与depends_on的区别: Docker/36.docker-compose设置静态ip和link与depends_on的区别                    
+      - Dockerfile COPY与ADD的最佳实践: Docker/45.BestPracticesFor-COPY-And-ADD      
+      - 清理docker镜像: Docker/22.CleanUpDockerIMG-containers-Volumes   
+      - docker和docker-compose的Entrypoint: Docker/23.useDockerAndCompose-Entrypoint
+      - 查看docker日志: Docker/24.EffectiveUseDockerViewLogs
+      - 设置docker日志轮训切换: Docker/27.dockerLogRotaionTrainingSwitch    
+      - docker-compose入门: Docker/25.runMulti-container-ApplicationDocker-compose
+      - docker-compose设置静态ip和link与depends_on的区别: dockerCompose-StaticIp-AND-depends_on-Link                   
     - 容器使用技巧:
       - Nginx镜像优化: Docker/43.container_cpu_detection  
-      - 缩减docker镜像大小的几种策略: Docker/38.缩减docker镜像大小的几种方式      
-      - Dockerfile层对镜像大小的影响: Docker/39.dockerfile层对镜像大小的影响 
+      - 缩减docker镜像大小的几种策略: Docker/38.Several-ways-to-reduce-image    
+      - Dockerfile层对镜像大小的影响: Docker/39.dockerfile-Layer-imageSize
       - Dockerfile之--cache-from: Docker/42.--cache-from       
-      - Dockerfile之.dockerignore用法: Docker/35.不能忽视的.dockerignore用法   
-      - 如何复现docker run参数命令: Docker/28.如何复现docker run参数命令
-      - 如何从镜像image恢复Dockerfile: Docker/29.如何从镜像image恢复Dockerfile
-      - Docker none none镜像？: Docker/30.什么是Docker none none镜像 
-      - 理解Docker构建缓存: Docker/31.docker构建缓存   
-      - 理解Privileged与--cap-add和--cap-drop: Docker/32.特权模式与--cap-add和--cap-drop     
-      - 多阶段构建用法和思路: Docker/33.多阶段构建用法和思路       
-      - 了解uid和gid如何在docker容器中工作: Docker/34.了解uid和gid如何在docker容器中工作
-      - docker卷和文件系统权限: Docker/44.docker卷和文件系统权限      
-      - 容器中的进程不应该以root身份运行: Docker/37.容器中的进程不应该以root身份运行
-      - 如何在docker容器内修改系统时间: Docker/40.如何在docker容器内修改系统时间
-      - 不要在docker镜像中嵌入配置或者密码: Docker/41.不要在docker镜像中嵌入配置或者密码     
+      - Dockerfile之.dockerignore用法: Docker/35.CanNotIgnoreThe.dockerignoreUsage
+      - 如何复现docker run参数命令: Docker/28.containerTO-DockerRunCommand
+      - 如何从镜像image恢复Dockerfile: Docker/29.dockerImage-TO-Dockerfile
+      - Docker none none镜像？: Docker/30.What-Is-Docker-None-None-Image
+      - 理解Docker构建缓存: Docker/31.dockerBuildCache
+      - 理解Privileged与--cap-add和--cap-drop: Docker/32.Privilege-mode-With--cap-add-AND---cap-drop     
+      - 多阶段构建用法和思路: Docker/33.Docker-Multi0Stage-Build    
+      - 了解uid和gid如何在docker容器中工作: Docker/34.UID-GID-IN-dockerContainerWayOfWorking
+      - docker卷和文件系统权限: Docker/44.dockerVolumeAnd-File-System-Permissions  
+      - 容器中的进程不应该以root身份运行: Docker/37.Processes-in-the-container-should-not-be-run-as-root
+      - 如何在docker容器内修改系统时间: Docker/40.changeDocker-SystemTime
+      - 不要在docker镜像中嵌入配置或者密码: Docker/41.not-In-DockerImage-configurePasswd    
       - gvisor: Docker/46.gvisor 
-      - docker安全实践: Docker/47.docker安全实践
+      - docker安全实践: Docker/47.dockerSecurityPractice
       - harbor配置https: Docker/48.harbor-https   
       - env传参数: Docker/49.env
       - shell env: Docker/50.shell env    
