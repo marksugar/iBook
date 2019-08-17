@@ -1,20 +1,20 @@
-在go语言中的代码文件中最上层会定义一个package声明开头，说明源文件所属的包
+# LinuxEA WiKi
 
-而后使用Import导入依赖的包，其次为包级别的变量，产量，类型和函数的什么和赋值
+这是一个个人维护的Wiki，你可以直接访问我的[博客](https://www.linuxea.com)或者[Github](https://github.com/marksugar
+)
 
-函数中可定义局部的变量和常量等。
+---
+## 内容
 
-如下：
+这里有我的笔记，其中包括Docker容器，kubernetes，Devops(方法和工具：gitlab-ci/cd，jenkins)，Git版本仓库
 
-```
-package main
+## 联系我
 
-import "fmt"
+Docker实践讨论群 QQ群：47355295
 
-func main(){
-  fmt.Println("hello world!")
-}
-```
+微信群
 
-package main 中的main是程序的入口。在后面的包管理中会有其他的方式表示
+![wx](wx.jpg)
+
+
 
