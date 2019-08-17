@@ -42,7 +42,7 @@ nav:
       - 查看docker日志: Docker/24.EffectiveUseDockerViewLogs
       - 设置docker日志轮训切换: Docker/27.dockerLogRotaionTrainingSwitch    
       - docker-compose入门: Docker/25.runMulti-container-ApplicationDocker-compose
-      - docker-compose设置静态ip和link与depends_on的区别: dockerCompose-StaticIp-AND-depends_on-Link                   
+      - docker-compose设置静态ip和link与depends_on的区别: Docker/36.dockerCompose-StaticIp-AND-depends_on-Link                   
     - 容器使用技巧:
       - Nginx镜像优化: Docker/43.container_cpu_detection  
       - 缩减docker镜像大小的几种策略: Docker/38.Several-ways-to-reduce-image    
