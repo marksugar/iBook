@@ -1,10 +1,10 @@
-# iBook
+iBook
 
 通过访问一下链接可以直接访问到Wiki
 
-mygolang.readthedocs.io
+http://mygolang.readthedocs.io
 
-mygolang.rtfd.io
+http://mygolang.rtfd.io
 
 # LinuxEA WiKi
 
@@ -20,7 +20,12 @@ mygolang.rtfd.io
 
 Docker实践讨论群 QQ群：47355295
 
-微信群
+## 赞助我
 
-![wx](../docs/wx.jpg)
+支付宝
 
+![wx](zhifubao.png)
+
+微信
+
+![wxx](weixin.png)

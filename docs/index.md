@@ -18,3 +18,12 @@ Docker实践讨论群 QQ群：47355295
 
 
 
+### 赞助我
+
+- 微信
+
+![wx](weixin.png)
+
+- 支付宝
+
+![wx](zhifubao.png)
