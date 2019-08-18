@@ -16,14 +16,5 @@ Docker实践讨论群 QQ群：47355295
 
 ![wx](wx.jpg)
 
-
-
-### 赞助我
-
-- 微信
-
-![wx](weixin.png)
-
-- 支付宝
-
-![wx](zhifubao.png)
+## 致谢
+- [如何捐赠](donate.md)
