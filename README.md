@@ -31,6 +31,6 @@ Docker实践讨论群 QQ群：47355295
 
 ## 致谢
 
-- [如何捐赠](dnnate.md)
+- [如何捐赠](docs/dnnate.md)
 
 Copyright 2019  Marksugar (usertzc@163.com) GNU General Public License v3.0, 详情见 [LICENSE](https://github.com/marksugar/iBook/blob/master/LICENSE) 文件。
