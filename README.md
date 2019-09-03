@@ -1,58 +1,36 @@
-[![PyPI][pypi-image]][pypi-link]
+iBook
 
-  [pypi-image]: https://img.shields.io/pypi/v/mkdocs-windmill.svg
-  [pypi-link]: https://pypi.python.org/pypi/mkdocs-windmill
+通过访问一下链接可以直接访问到Wiki
 
-# Windmill theme for MkDocs
-Outstanding mkdocs theme with a focus on navigation and usability, from Grist Labs.
+[linuxea.readthedocs.io](http://linuxea.readthedocs.io/)
 
-Highlights:
-- Convenient navigation for larger documentation projects.
-- Retains state of the navigation menu across page transitions.
-- Search with term highlighting.
-- User may search in a quick dropdown or load results in a full page.
-- Default mkdocs theme within pages, including syntax highlighting.
+[linuxea.rtfd.io](http://linuxea.rtfd.io/)
 
-## Quick start
+![logo](https://www.linuxea.com/usr/uploads/2019/07/2124771891.png)
 
-To install using `pip`:
-``` sh
-pip install mkdocs-windmill
-```
+这是一个个人维护的Wiki，你可以直接访问我的[博客](https://www.linuxea.com)或者[Github](https://github.com/marksugar/iBook
+)
 
-To use in `mkdocs.yml`:
-``` yaml
-theme: windmill
-```
+[![Documentation Status](https://readthedocs.org/projects/linuxea/badge/?version=latest)](https://linuxea.readthedocs.io/zh/latest/?badge=latest)
 
-Note that it's important for there to exist a homepage, e.g. a top-level root element in mkdocs 1.0+:
-``` yaml
-nav:
-  - Home: index.md
-```
+------
 
-## Demo and documentation
+## 内容
 
-More details are on this site generated with the Windmill theme:
-- [Usage](https://gristlabs.github.io/mkdocs-windmill/#) for more on installation and usage.
-- [Customization](https://gristlabs.github.io/mkdocs-windmill/#customization/) for extra configuration options that Windmill supports.
+这里有我的笔记，其中包括Docker容器，kubernetes，Devops(方法和工具：gitlab-ci/cd，jenkins)，Git版本仓库
 
-## Development
+## 联系我
 
-If doing development on `mkdocs-windmill`, check it out with
-``` sh
-git clone https://github.com/gristlabs/mkdocs-windmill/
-cd mkdocs-windmill
-```
+Docker实践讨论群 QQ群：47355295
 
-There are Selenium browser tests, based on NodeJS. To set them up, first [install Yarn](https://yarnpkg.com/en/docs/install), then from `mkdocs-windmill` checkout, run
-``` sh
-cd tests
-yarn install
-```
+![QQ](docs/QQgroup.JPG)
 
-You can run tests when you make changes as follows:
-``` sh
-cd tests
-MKDOCS_BINARY=<path-to-mkdocs-command> SELENIUM_BROWSER=chrome yarn test
-```
+### 微信群
+
+![wx](docs/wx.jpg)
+
+## 致谢
+
+- [如何捐赠](dnnate.md)
+
+Copyright 2019  Marksugar (usertzc@163.com) GNU General Public License v3.0, 详情见 [LICENSE](https://github.com/marksugar/iBook/blob/master/LICENSE) 文件。
