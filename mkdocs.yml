@@ -4,15 +4,13 @@ site_description: Project documentation with Markdown.
 site_author: MkDocs Team
 
 repo_url: https://github.com/marksugar/iBook
-#edit_uri: ""
+edit_uri: ""
 nav:
-#pages:
   - Home: index.md
   - GoLang:
     - 1: GoLang/1.md
     - 2: GoLang/2.md
-    - 3: GoLang/3.md  
-  #- Docker容器:    
+    - 3: GoLang/3.md    
   - 白话容器入门精选:
     - 1.容器基础: Docker/1.Docker-Basis
     - 2.容器基础用法: Docker/2.Docker-Basis-Usege
@@ -45,28 +43,28 @@ nav:
       - 设置docker日志轮训切换: Docker/27.dockerLogRotaionTrainingSwitch    
       - docker-compose入门: Docker/25.runMulti-container-ApplicationDocker-compose
       - docker-compose设置静态ip和link与depends_on的区别: Docker/36.dockerCompose-StaticIp-AND-depends_on-Link                   
-  - 容器使用技巧:
-    - Nginx镜像优化: Docker/43.container_cpu_detection  
-    - 缩减docker镜像大小的几种策略: Docker/38.Several-ways-to-reduce-image    
-    - Dockerfile层对镜像大小的影响: Docker/39.dockerfile-Layer-imageSize
-    - Dockerfile之--cache-from: Docker/42.--cache-from       
-    - Dockerfile之.dockerignore用法: Docker/35.CanNotIgnoreThe.dockerignoreUsage
-    - 如何复现docker run参数命令: Docker/28.containerTO-DockerRunCommand
-    - 如何从镜像image恢复Dockerfile: Docker/29.dockerImage-TO-Dockerfile
-    - Docker none none镜像？: Docker/30.What-Is-Docker-None-None-Image
-    - 理解Docker构建缓存: Docker/31.dockerBuildCache
-    - 理解Privileged与--cap-add和--cap-drop: Docker/32.Privilege-mode-With--cap-add-AND---cap-drop     
-    - 多阶段构建用法和思路: Docker/33.Docker-Multi0Stage-Build    
-    - 了解uid和gid如何在docker容器中工作: Docker/34.UID-GID-IN-dockerContainerWayOfWorking
-    - docker卷和文件系统权限: Docker/44.dockerVolumeAnd-File-System-Permissions  
-    - 容器中的进程不应该以root身份运行: Docker/37.Processes-in-the-container-should-not-be-run-as-root
-    - 如何在docker容器内修改系统时间: Docker/40.changeDocker-SystemTime
-    - 不要在docker镜像中嵌入配置或者密码: Docker/41.not-In-DockerImage-configurePasswd    
-    - gvisor: Docker/46.gvisor 
-    - docker安全实践: Docker/47.dockerSecurityPractice
-    - harbor配置https: Docker/48.harbor-https   
-    - env传参数: Docker/49.env
-    - shell env: Docker/50.shell env    
+    - 容器使用技巧:
+      - Nginx镜像优化: Docker/43.container_cpu_detection  
+      - 缩减docker镜像大小的几种策略: Docker/38.Several-ways-to-reduce-image    
+      - Dockerfile层对镜像大小的影响: Docker/39.dockerfile-Layer-imageSize
+      - Dockerfile之--cache-from: Docker/42.--cache-from       
+      - Dockerfile之.dockerignore用法: Docker/35.CanNotIgnoreThe.dockerignoreUsage
+      - 如何复现docker run参数命令: Docker/28.containerTO-DockerRunCommand
+      - 如何从镜像image恢复Dockerfile: Docker/29.dockerImage-TO-Dockerfile
+      - Docker none none镜像？: Docker/30.What-Is-Docker-None-None-Image
+      - 理解Docker构建缓存: Docker/31.dockerBuildCache
+      - 理解Privileged与--cap-add和--cap-drop: Docker/32.Privilege-mode-With--cap-add-AND---cap-drop     
+      - 多阶段构建用法和思路: Docker/33.Docker-Multi0Stage-Build    
+      - 了解uid和gid如何在docker容器中工作: Docker/34.UID-GID-IN-dockerContainerWayOfWorking
+      - docker卷和文件系统权限: Docker/44.dockerVolumeAnd-File-System-Permissions  
+      - 容器中的进程不应该以root身份运行: Docker/37.Processes-in-the-container-should-not-be-run-as-root
+      - 如何在docker容器内修改系统时间: Docker/40.changeDocker-SystemTime
+      - 不要在docker镜像中嵌入配置或者密码: Docker/41.not-In-DockerImage-configurePasswd    
+      - gvisor: Docker/46.gvisor 
+      - docker安全实践: Docker/47.dockerSecurityPractice
+      - harbor配置https: Docker/48.harbor-https   
+      - env传参数: Docker/49.env
+      - shell env: Docker/50.shell env    
   - Kubernetes:
     #- Kubernetes1.11:
     - 1.kubernetes安装: kubernetes/1.kubernetesInstall
@@ -139,24 +137,12 @@ nav:
     - Git稀疏检出: Git/GitCheckOut  
     
 theme:
-  #name: windmill
-  ##name: mkdocs
-  #highlightjs: true
-  #hljs_languages:
-  #    - yaml
-  #    - go
-  #    - shell
-  #shortcuts:
-  #    help: 191    # ?
-  #    next: 78     # n
-  #    previous: 80 # p
-  #    search: 83   # s  
-  name: null
-  custom_dir: mkdocs_windmill
-  # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
-  static_templates: [404.html]
-  search_index_only: true
-  include_search_page: true
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - go
+      - shell
 extra:
   history_buttons: false
   #version: v1.0.2  
@@ -167,5 +153,5 @@ markdown_extensions:
 copyright: Copyright &copy; 2019 <a href="https://github.com/marksugar">Mark</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">Mark Team</a>.
 google_analytics: ['UA-27795084-5', 'mkdocs.org']
 
-#plugins:
-#    - search
+plugins:
+    - search
