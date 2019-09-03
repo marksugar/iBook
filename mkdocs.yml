@@ -3,14 +3,15 @@ site_url: http://linuxea.readthedocs.io
 site_description: Project documentation with Markdown.
 site_author: MkDocs Team
 
-repo_url: https://github.com/marksugar
+repo_url: https://github.com/marksugar/iBook
 edit_uri: ""
 nav:
   - Home: index.md
   - GoLang:
     - 1: GoLang/1.md
     - 2: GoLang/2.md
-    - 3: GoLang/3.md          
+    - 3: GoLang/3.md  
+  #- Docker容器:    
   - 白话容器入门精选:
     - 1.容器基础: Docker/1.Docker-Basis
     - 2.容器基础用法: Docker/2.Docker-Basis-Usege
@@ -43,29 +44,30 @@ nav:
       - 设置docker日志轮训切换: Docker/27.dockerLogRotaionTrainingSwitch    
       - docker-compose入门: Docker/25.runMulti-container-ApplicationDocker-compose
       - docker-compose设置静态ip和link与depends_on的区别: Docker/36.dockerCompose-StaticIp-AND-depends_on-Link                   
-    - 容器使用技巧:
-      - Nginx镜像优化: Docker/43.container_cpu_detection  
-      - 缩减docker镜像大小的几种策略: Docker/38.Several-ways-to-reduce-image    
-      - Dockerfile层对镜像大小的影响: Docker/39.dockerfile-Layer-imageSize
-      - Dockerfile之--cache-from: Docker/42.--cache-from       
-      - Dockerfile之.dockerignore用法: Docker/35.CanNotIgnoreThe.dockerignoreUsage
-      - 如何复现docker run参数命令: Docker/28.containerTO-DockerRunCommand
-      - 如何从镜像image恢复Dockerfile: Docker/29.dockerImage-TO-Dockerfile
-      - Docker none none镜像？: Docker/30.What-Is-Docker-None-None-Image
-      - 理解Docker构建缓存: Docker/31.dockerBuildCache
-      - 理解Privileged与--cap-add和--cap-drop: Docker/32.Privilege-mode-With--cap-add-AND---cap-drop     
-      - 多阶段构建用法和思路: Docker/33.Docker-Multi0Stage-Build    
-      - 了解uid和gid如何在docker容器中工作: Docker/34.UID-GID-IN-dockerContainerWayOfWorking
-      - docker卷和文件系统权限: Docker/44.dockerVolumeAnd-File-System-Permissions  
-      - 容器中的进程不应该以root身份运行: Docker/37.Processes-in-the-container-should-not-be-run-as-root
-      - 如何在docker容器内修改系统时间: Docker/40.changeDocker-SystemTime
-      - 不要在docker镜像中嵌入配置或者密码: Docker/41.not-In-DockerImage-configurePasswd    
-      - gvisor: Docker/46.gvisor 
-      - docker安全实践: Docker/47.dockerSecurityPractice
-      - harbor配置https: Docker/48.harbor-https   
-      - env传参数: Docker/49.env
-      - shell env: Docker/50.shell env    
+  - 容器使用技巧:
+    - Nginx镜像优化: Docker/43.container_cpu_detection  
+    - 缩减docker镜像大小的几种策略: Docker/38.Several-ways-to-reduce-image    
+    - Dockerfile层对镜像大小的影响: Docker/39.dockerfile-Layer-imageSize
+    - Dockerfile之--cache-from: Docker/42.--cache-from       
+    - Dockerfile之.dockerignore用法: Docker/35.CanNotIgnoreThe.dockerignoreUsage
+    - 如何复现docker run参数命令: Docker/28.containerTO-DockerRunCommand
+    - 如何从镜像image恢复Dockerfile: Docker/29.dockerImage-TO-Dockerfile
+    - Docker none none镜像？: Docker/30.What-Is-Docker-None-None-Image
+    - 理解Docker构建缓存: Docker/31.dockerBuildCache
+    - 理解Privileged与--cap-add和--cap-drop: Docker/32.Privilege-mode-With--cap-add-AND---cap-drop     
+    - 多阶段构建用法和思路: Docker/33.Docker-Multi0Stage-Build    
+    - 了解uid和gid如何在docker容器中工作: Docker/34.UID-GID-IN-dockerContainerWayOfWorking
+    - docker卷和文件系统权限: Docker/44.dockerVolumeAnd-File-System-Permissions  
+    - 容器中的进程不应该以root身份运行: Docker/37.Processes-in-the-container-should-not-be-run-as-root
+    - 如何在docker容器内修改系统时间: Docker/40.changeDocker-SystemTime
+    - 不要在docker镜像中嵌入配置或者密码: Docker/41.not-In-DockerImage-configurePasswd    
+    - gvisor: Docker/46.gvisor 
+    - docker安全实践: Docker/47.dockerSecurityPractice
+    - harbor配置https: Docker/48.harbor-https   
+    - env传参数: Docker/49.env
+    - shell env: Docker/50.shell env    
   - Kubernetes:
+    #- Kubernetes1.11:
     - 1.kubernetes安装: kubernetes/1.kubernetesInstall
     - 2.run第一个pod: kubernetes/2.runPod
     - 3.资源清单: kubernetes/3.Resourcelist
@@ -95,6 +97,7 @@ nav:
       - 3.持续集成首要7个标志: Devops/3.Continuous-integration-of-top7-signs
       - 4.自动化测试和持续测试的差异: Devops/4.Differences-between-automated-testing-and-continuous-testing
       - 5.连续测试的的5个步骤: Devops/5.5steps-of-continuous-testing
+      - 6.有趣的devops: Devops/6.interesting-devops
     - Devops工具:  
       - Gitlab-CI/CD:
         - 0.Gitlab-ce安装: GitLab-CICD/0.Gitlab-ce-install  
@@ -133,11 +136,20 @@ nav:
           - F.jenkins pipeline阶段终止: Jenkins/F.jenkins-pipelineStae-Stop
   - Git操作手册:
     - Git稀疏检出: Git/GitCheckOut  
+    
 theme:
-  #name: 'rtd-dropdown'
-  name: mkdocs
-  
-
+  name: windmill
+  #name: mkdocs
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - go
+      - shell
+  shortcuts:
+      help: 191    # ?
+      next: 78     # n
+      previous: 80 # p
+      search: 83   # s      
 copyright: Copyright &copy; 2019 <a href="https://github.com/marksugar">Mark</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">Mark Team</a>.
 google_analytics: ['UA-27795084-5', 'mkdocs.org']
 
