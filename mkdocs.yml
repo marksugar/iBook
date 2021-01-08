@@ -10,7 +10,7 @@ nav:
   - Go笔记:
     - Golang基础笔记:
       - 1.go基础数据类型: GoLangBase/1
-      - 2.go循环控制 GoLangBase/2
+      - 2.go循环控制: GoLangBase/2
       - 3.go复合数据类型: GoLangBase/3
       - 4.go数据类型进阶: GoLangBase/4
       - 5.go函数: GoLangBase/5

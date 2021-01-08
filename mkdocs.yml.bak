@@ -8,12 +8,21 @@ edit_uri: ""
 nav:
   - Home: index.md
   - Go笔记:
-    - go基础数据类型: GoLang/1.go
-    - go循环控制 GoLang/2.go
-    - go复合数据类型: GoLang/3.go
-    - go数据类型进阶: GoLang/4.go
-    - go数据类型进阶: GoLang/4.go
-    - go数据类型进阶: GoLang/4.go    
+    - Golang基础笔记:
+      - 1.go基础数据类型: GoLangBase/1
+      - 2.go循环控制 GoLangBase/2
+      - 3.go复合数据类型: GoLangBase/3
+      - 4.go数据类型进阶: GoLangBase/4
+      - 5.go函数: GoLangBase/5
+      - 6.go包管理和常用模块: GoLangBase/6 
+      - 7.go结构体: GoLangBase/7
+      - 8.方法: GoLangBase/8
+      - 第三方模块: GoLangBase/8
+    - Beego初学笔记:
+      - ORM: Beego/1.beego-orm
+      - todolist: Beego/2.beego-todolist
+      - bee: Beego/3.beego-1
+      - userauth: Beego/4.go-cmdb-20191116
   - 白话容器入门精选:
     - 1.容器基础: Docker/1.Docker-Basis
     - 2.容器基础用法: Docker/2.Docker-Basis-Usege
